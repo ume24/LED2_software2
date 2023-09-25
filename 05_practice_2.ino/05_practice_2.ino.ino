@@ -14,9 +14,9 @@ void loop() {
 
   for (int i = 0; i < 5; i++) {
     digitalWrite(PIN_LED, 1); 
-    delay(200); // 0.2초 동안 대기
+    delay(100); 
     digitalWrite(PIN_LED, 0); 
-    delay(200); // 0.2초 동안 대기
+    delay(100); //대기
   }
   
   while (1) {
